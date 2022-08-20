@@ -3,7 +3,7 @@ import FinalixSec from '../components/FinalixSec'
 const FinalixSectionContainer = () => {
   return (
     <section>
-        FinalixSec/>
+        <FinalixSec/>
     </section>
   )
 }

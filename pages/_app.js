@@ -1,11 +1,11 @@
 import '../styles/globals.css'
-import Layout from '../components/layout'
+import LandingPage from '../container/LandingPage'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <LandingPage>
       <Component {...pageProps} />
-    </Layout>
+    </LandingPage>
   )
 
 }

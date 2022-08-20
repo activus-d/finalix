@@ -2,12 +2,12 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 const Home = () => {
   return (
-    <header>
+    <section>
         <Navbar/>
         <main>
-            
+            {/* finalix business consulting */}
         </main>
-    </header>
+    </section>
   )
 }
 

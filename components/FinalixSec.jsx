@@ -1,8 +1,12 @@
 import React from 'react'
 
-const FinalixSec = () => {
+const FinalixSec = ({props}) => {
   return (
-    <div>FinalixSec</div>
+    <div>
+      {/* finalix family  */}
+      FinalixSec
+
+    </div>
   )
 }
 

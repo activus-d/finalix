@@ -1,8 +1,22 @@
 import React from 'react'
-import {Home, Explore} from '../container'
-const LandingPage = () => {
+import {Home, Footer } from '../container'
+import Head from 'next/head'
+const LandingPage = ({children}) => {
   return (
-    <div>LandingPage</div>
+    <>
+    <Head>
+        <title>FINALIX</title>
+    </Head>
+      <header>
+        <Home/>
+      </header>
+      <main>
+        {children}
+      </main>
+      <footer>
+        <Footer/>
+      </footer>
+    </>
   )
 }
 
