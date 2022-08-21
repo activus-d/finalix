@@ -1,7 +1,6 @@
 import React from 'react'
 import {Header, Footer } from '../container'
 import Head from 'next/head'
-// import logo from '../public/assets/'
 const LandingPage = ({children}) => {
   return (
     <>
