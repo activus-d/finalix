@@ -6,7 +6,7 @@ const HomeFinalix = () => {
   return (
     <section className='flex relative   justify-between'>
       <div className=' py-28 sm:bg  '>
-        <div className=' h-full w-full  ss:w-5/6 sm:w-5/6  mx-auto '>
+        <div className=' h-full w-full px-6 ss:px-0 ss:w-5/6 sm:w-4/5  mx-auto '>
           <h1 className='font-bold capitalize text-secHead text-priHeadColor'>
           Finalix business consulting
           </h1>
@@ -20,8 +20,8 @@ const HomeFinalix = () => {
           </div>
         </div>  
       </div>
-      <div className='hidden sm:flex flex-col   items-center border-4  w-[50rem]'>
-        <div className='one w-[22rem] md:w-[30rem] h-[9rem] '></div>
+      <div className='hidden sm:flex flex-col   items-center w-[50rem]'>
+        <div className='one w-[22rem] md:w-[34rem] h-[9rem] '></div>
         <div className=' absolute right-0 md:right-8  top-32 '>
           <Image 
             src={rec1}
@@ -40,6 +40,7 @@ const HomeFinalix = () => {
         </div>
       </div>
     </section>
+    
   )
 }
 

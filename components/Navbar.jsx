@@ -12,10 +12,10 @@ return(
         <li className=' border-b-2 hover:border-b-2 '>Services</li>
         </Link>
         <Link href='/Experts'>
-          <li className='hover:border-b-2 pt-2'>Experts</li>
+          <li className='hover:border-b-2 py-2 ss:p-0 '>Experts</li>
         </Link>
         <Link href='/Contact'>
-          <li className='hover:border-b-2 pt-2'>Contact</li>
+          <li className='hover:border-b-2'>Contact</li>
         </Link>
       </ul>
 )

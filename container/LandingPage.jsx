@@ -11,7 +11,7 @@ const LandingPage = ({children}) => {
       <header className='bg-navBarBg font-inter h-auto '>
         <Header/>
       </header>
-      <main className=' font-inter h-full w-full pb-16 z-40'>
+      <main className=' font-inter pb-16'>
         {children}
       </main>
       <footer className='font-inter h-full w-full md:w-5/6 px-6 xs:px-8 mx-auto'>
