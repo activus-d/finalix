@@ -40,7 +40,6 @@ const HomeFinalix = () => {
         </div>
       </div>
     </section>
-    
   )
 }
 
