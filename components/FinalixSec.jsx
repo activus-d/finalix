@@ -4,7 +4,7 @@ const FinalixSec = ({props}) => {
   return (
     <div>
       {/* finalix family  */}
-      FinalixSec
+      {/* FinalixSec */}
 
     </div>
   )

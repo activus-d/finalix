@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header, Footer } from '../container'
+import {Header, Footer } from '.'
 import Head from 'next/head'
 const LandingPage = ({children}) => {
   return (
