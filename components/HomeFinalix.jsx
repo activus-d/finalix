@@ -5,8 +5,8 @@ import rec4 from '../public/assets/rec4.svg'
 const HomeFinalix = () => {
   return (
     <section className='flex relative   justify-between'>
-      <div className=' py-28 sm:bg px-6  '>
-        <div className=' h-full w-full  ss:w-5/6 sm:w-4/5  mx-auto '>
+      <div className=' py-28 sm:bg  '>
+        <div className=' h-full w-full  ss:w-5/6 sm:w-5/6  mx-auto '>
           <h1 className='font-bold capitalize text-secHead text-priHeadColor'>
           Finalix business consulting
           </h1>
@@ -20,9 +20,9 @@ const HomeFinalix = () => {
           </div>
         </div>  
       </div>
-      <div className='hidden sm:flex flex-col  items-center  relative w-[50rem]'>
-        <div className='one w-[28rem] md:w-[34rem] h-[9rem] '></div>
-        <div className=' absolute right-8 top-32 '>
+      <div className='hidden sm:flex flex-col   items-center border-4  w-[50rem]'>
+        <div className='one w-[22rem] md:w-[30rem] h-[9rem] '></div>
+        <div className=' absolute right-0 md:right-8  top-32 '>
           <Image 
             src={rec1}
             width={220}
@@ -30,8 +30,8 @@ const HomeFinalix = () => {
           />
         </div>
         
-        <div className='two  w-[35rem] md:w-[43rem] h-[12rem]'></div>
-        <div className='absolute sm:right-16 lg:right-40  md:bottom-[-15px] sm:bottom-8'>
+        <div className='two  w-[30rem] md:w-[43rem] h-[12rem]'></div>
+        <div className='absolute sm:right-6 lg:right-40  top-[28rem]'>
           <Image 
             src={rec4}
             width={250}

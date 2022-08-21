@@ -33,10 +33,7 @@
   .bg{
     background: url('../public/assets/bg.svg');
     background-repeat: no-repeat;
-    /* position: absolute;
-    left: 0; */
-
-    /* border: 2px solid red; */
+    position: absolute;
     background-position: 100% 100%;
     background-size: cover; 
   }
@@ -55,7 +52,7 @@
       background: url('../public/assets/rec3.svg'), #1C6C59;
       position: absolute;
       right: 0;
-      bottom: 44px;
+      top:340px;
     }
   
     .img {
