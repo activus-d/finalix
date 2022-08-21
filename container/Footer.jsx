@@ -1,8 +1,10 @@
 import React from 'react'
-
+import { FooterCom } from '../components'
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section>
+      <FooterCom/>
+    </section>
   )
 }
 

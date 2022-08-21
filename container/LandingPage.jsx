@@ -1,5 +1,5 @@
 import React from 'react'
-import {Home, Footer } from '../container'
+import {Header, Footer } from '../container'
 import Head from 'next/head'
 const LandingPage = ({children}) => {
   return (
@@ -8,7 +8,7 @@ const LandingPage = ({children}) => {
         <title>FINALIX</title>
     </Head>
       <header>
-        <Home/>
+        <Header/>
       </header>
       <main>
         {children}

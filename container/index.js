@@ -1,4 +1,4 @@
-export { default as Home } from "./Home";
+export { default as Header } from "./Header";
 export { default as LandingPage } from "./LandingPage";
 export { default as Explore } from "./Explore";
 export { default as FinalixSectionContainer } from "./FinalixSectionContainer";

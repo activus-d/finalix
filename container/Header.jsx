@@ -1,14 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-const Home = () => {
+const Header = () => {
   return (
     <section>
         <Navbar/>
-        <main>
-            {/* finalix business consulting */}
-        </main>
     </section>
   )
 }
 
-export default Home
+export default Header

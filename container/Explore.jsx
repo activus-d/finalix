@@ -1,11 +1,11 @@
 import React from 'react'
-import Portfolio from '../components/Portfolio'
+import { Portfolio, FiftyCom, ExploreCom } from '../components'
 const Explore = () => {
   return (
     <section>
-        <div></div>
-        <Portfolio/>
-        <div></div>
+        <FiftyCom/>
+        <Portfolio />
+        <ExploreCom/>
     </section>
   )
 }

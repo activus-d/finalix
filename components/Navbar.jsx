@@ -6,9 +6,9 @@ const Navbar = () => {
     <nav className='flex justify-between'>
       <h3><a href="/">Finalix</a> </h3>
       <ul className='flex gap-12 cursor-pointer'>
-        <Link href='/'>
+        <a href='/'>
         <li>Home</li>
-        </Link>
+        </a>
         <Link href='/Services'>
         <li>Services</li>
         </Link>
