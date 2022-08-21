@@ -4,7 +4,8 @@ const FinalixMiles = () => {
   return (
     <section>
       {/* finalix milestones */}
-      FinalixMiles</section>
+      {/* FinalixMiles */}
+      </section>
   )
 }
 

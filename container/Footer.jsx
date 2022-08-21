@@ -3,7 +3,7 @@ import { FooterCom } from '../components'
 const Footer = () => {
   return (
     <section>
-      <FooterCom/>
+      {/* <FooterCom/> */}
     </section>
   )
 }
