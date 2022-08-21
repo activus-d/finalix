@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600;700;800;900&family=Lato:wght@100;300;400&family=League+Spartan:wght@500;700&family=Manrope:wght@200;300;400;500;800&family=Outfit:wght@400;700&display=swap');
+
 @tailwind base;
 
 @layer base {
@@ -12,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 2px solid red; */
   }
 
   html {
@@ -22,9 +25,44 @@
     min-height: 100vh;
     width: 100%;
     font-weight: normal;
-    font-size: 1.6rem;
-    
+    /* font-size: 1.3rem; */
   }
+  p{
+    font-size: 1.4rem
+  }
+  .bg{
+    background: url('../public/assets/bg.svg');
+    background-repeat: no-repeat;
+    /* position: absolute;
+    left: 0; */
+
+    /* border: 2px solid red; */
+    background-position: 100% 100%;
+    background-size: cover; 
+  }
+  .one{
+    background: url('../public/assets/rec2.svg'), #1C6C59;
+    position: absolute;
+    right:0;
+    top:120px;
+  }
+  .img{
+    
+    top: 50px;
+    border: 2px solid red
+  }
+    .two {
+      background: url('../public/assets/rec3.svg'), #1C6C59;
+      position: absolute;
+      right: 0;
+      bottom: 44px;
+    }
+  
+    .img {
+  
+      top: 50px;
+      border: 2px solid red
+    }
 }
 
 @tailwind components;
