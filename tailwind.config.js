@@ -62,10 +62,11 @@ module.exports = {
         'portfolio': '1px 4px 10px rgba(0, 0, 0, 0.25)'
       },
       backgroundSize: {
-        '100%': '100% 100%'
+        '100%': '100% 100%',
+        '35%': '30% 35%',
       },
       width: {
-        '300px': '300px',
+        '250px': '250px',
         '60px': '60px',
       },
       height: {

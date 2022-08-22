@@ -5,7 +5,7 @@ const Expertise = ({props}) => {
     <div>
         {/* expertise */}
         {/* Expertise */}
-        </div>
+    </div>
   )
 }
 
