@@ -1,7 +1,7 @@
 import React from 'react'
 import {Expertise} from '../components'
 import image from '../public/assets/images/Rectangle 23.svg'
-import {RiArrowRightSline} from 'react-icons/ri'
+
 const ExpertiseSection = () => {
   return (
     <section className='bg-secBg px-6 sm:px-12 w-full py-16 h-full justify-center sm:flex-nowrap flex gap-12 flex-wrap'>
