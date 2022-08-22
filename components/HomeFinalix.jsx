@@ -16,7 +16,7 @@ const HomeFinalix = () => {
 
           <div>
             <div className='py-10'>
-              <h2 className='text-secHead text-priHeadColor font-bold text-[3rem]'>Expertise</h2>
+              <h2 className='text-secHead text-priHeadColor font-bold text-[2.7rem]'>Expertise</h2>
             <p className='md:w-[45rem] text-homeTextColor md:w-2/3  w-full py-8 text-priPara'>You benefit from experienced and conceptually strong consultants who develop solutions to strengthen your company on the market in the long term.
             </p>
             <a href="#explore"><IoIosArrowDown  size={44} color='white' className = 'bg-priHeadColor rounded-full px-4'/></a>
