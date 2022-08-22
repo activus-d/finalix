@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 const Portfolio = ({title,content}) => {
   const [portfolioColor, setPortfolioColor]  = useState({lightGreen: '#528276', lightBrown: '#ab6f6f', midGray: '#6e706e', deepCyan: '#8d8642'})
   const [portfolioOptions] = useState({title: 'Portfolio & Assets Management', options: ['Risk management', 'Structured product', 'Portfolio Management', 'Investment Accounting']})
-// 
+ 
   return (
     <section className='hidden ss:flex ss:justify-around ss:gap-x-20 lg:grid-cols-4 lg:grid-rows-1 lg:gap-x-7'>
       <SinglePortfolioOne 

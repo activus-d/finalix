@@ -17,20 +17,20 @@ module.exports = {
         recBgGradient: " linear-gradient(180deg, #00614A 0%, #001B14 100%)",
         bodyGradient: " linear-gradient(179.77deg, #FFFFFF 43.21%, #CBFFF0 74.26%, #FFFFFF 115.51%)",
         secBg: "#7DADA2",
-        'deepGreen': '#195746',
-        'white': '#ffffff',
-        'lightGreen': '#528276',
-        'verydeepGreen': '#004333',
-        'lightBrown': '#ab6f6f',
-        'midGray': '#6e706e',
-        'deepCyan': '#6e706e',
+        deepGreen: "#195746",
+        white: "#ffffff",
+        lightGreen: "#528276",
+        verydeepGreen: "#004333",
+        lightBrown: "#ab6f6f",
+        midGray: "#6e706e",
+        deepCyan: "#6e706e", 
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
       fontSize: {
         priPara: "1.6rem",
-        secPara: '1.3rem',
+        secPara: "1.3rem",
         priHead: "5rem",
         secHead: "4rem",
         mediumHead: "2rem",
@@ -40,6 +40,26 @@ module.exports = {
         '16': '16px',
         '11': '11px',
         '8': '8px'
+      },
+      screens: {
+        xs: "480px",
+        ss: "620px",
+        sm: "850px",
+        md: "1060px",
+        lg: "1200px",
+        xl: "1700px",
+      },
+      backgroundColor: {
+        deepGreen: "#195746",
+        white: "#ffffff",
+        lightGreen: "#528276",
+        lightBrown: "#ab6f6f",
+        midGray: "#6e706e",
+        deepCyan: "#6e706e",
+        veryLightGreen: "#dbfff6",
+      },
+      backGroundImage: {
+        exploreBg: "url('../public/assets/images/exploreBg.svg')",
       },
     screens: {
       xs: "480px",
@@ -62,9 +82,14 @@ module.exports = {
       'exploreBg': "url('../public/assets/images/exploreBg.svg')"
     },
       boxShadow: {
-        'portfolio': '1px 4px 10px rgba(0, 0, 0, 0.25)'
+        portfolio: "1px 4px 10px rgba(0, 0, 0, 0.25)",
       },
       backgroundSize: {
+        "100%": "100% 100%",
+      },
+      width: {
+        "300px": "300px",
+        "60px": "60px",
         '100%': '100% 100%',
         '35%': '30% 35%',
       },
@@ -73,8 +98,8 @@ module.exports = {
         '60px': '60px',
       },
       height: {
-        '60px': '60px'
-      }
+        "60px": "60px",
+      },
     },
   },
   plugins: [],

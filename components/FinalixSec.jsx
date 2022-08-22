@@ -11,7 +11,7 @@ const FinalixSec = ({props}) => {
           <h3 className='text-4xl text-deepGreen mb-9 font-bold lg:text-5xl'>
           Finalix Family
           </h3>
-          <p className='text-12 mb-9 text-deepGreen lg:text-16'>
+          <p className='text-priPara mb-9 text-deepGreen lg:text-16'>
             We are passionate doers with character and live a flat hierarchy. We share our knowledge and actively exchange ideas with each other. Work-life balance is no empty phrase for us – we promote flexible working models.
           </p>
           <button className='w-56 px-3 py-5 bg-deepGreen text-white text-2xl rounded-2xl'>
@@ -39,7 +39,7 @@ const FinalixSec = ({props}) => {
           <h3 className='text-4xl text-deepGreen mb-9 font-bold lg:text-5xl'>
             Recruiting
           </h3>
-          <p className='text-12 mb-9 text-deepGreen lg:text-16'>
+          <p className='text-priPara mb-9 text-deepGreen lg:text-16'>
             With us, you will accompany and develop value-creating projects with banks and insurance companies. The finalix Family is always looking for new consultants to join us in rethinking the financial industry. Are you ready?
           </p>
           <button className='w-56 px-3 py-5 bg-deepGreen text-white text-2xl rounded-2xl'>
