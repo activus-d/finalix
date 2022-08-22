@@ -37,9 +37,12 @@ module.exports = {
         priHead: "5rem",
         secHead: "4rem",
         mediumHead: "2rem",
-        48: "48px",
-        28: "28px",
-        10: "10px",
+        '48': '48px',
+        '28': '28px',
+        '10': '10px',
+        '16': '16px',
+        '11': '11px',
+        '8': '8px'
       },
       screens: {
         xs: "480px",
@@ -86,6 +89,7 @@ module.exports = {
       },
       backgroundSize: {
         "100%": "100% 100%",
+        "35%": "30% 35%"
       },
       width: {
         "300px": "300px",

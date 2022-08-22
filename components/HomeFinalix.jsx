@@ -5,7 +5,7 @@ import rec1 from '../public/assets/images/rec1.svg'
 import rec4 from '../public/assets/images/rec4.svg'
 const HomeFinalix = () => {
   return (
-    <section className='flex relative justify-between sm:bg px-6 sm:px-28 py-28 md:pb-40 '>
+    <section className='flex relative justify-between sm:bg px-6 sm:px-28 py-6 md:pb-40 '>
       <div className=' '>
         <div className=' h-full w-full ss:px-0 ss:w-5/6  w-full   '>
           <h1 className='font-bold capitalize text-secHead text-priHeadColor'>

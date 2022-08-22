@@ -6,19 +6,19 @@ import finalixSecImg2 from '../public/assets/images/finalixSecImg2.svg'
 const FinalixSec = ({props}) => {
   return (
     <section className=''>
-      <section className="grid grid-cols-2 bg-[url('../public/assets/images/finalixSecBg2.svg')] bg-no-repeat bg-35% bg-right px-28 py-10">
-        <div className='basis-1/2 flex flex-col justify-center text-justify pr-28'>
-          <h3 className='text-5xl text-deepGreen mb-9 font-bold'>
+      <section className="ss:grid ss:grid-cols-2 ss:bg-[url('../public/assets/images/finalixSecBg2.svg')] bg-no-repeat ss:bg-35% ss:bg-right px-5 pb-5 ss:pt-14 ss:px-28">
+        <div className=' flex flex-col justify-center items-center text-center ss:pr-24 ss:text-justify ss:items-start'>
+          <h3 className='text-4xl text-deepGreen mb-9 font-bold lg:text-5xl'>
           Finalix Family
           </h3>
-          <p className='text-3xl mb-9 text-deepGreen'>
+          <p className='text-priPara mb-9 text-deepGreen lg:text-16'>
             We are passionate doers with character and live a flat hierarchy. We share our knowledge and actively exchange ideas with each other. Work-life balance is no empty phrase for us – we promote flexible working models.
           </p>
           <button className='w-56 px-3 py-5 bg-deepGreen text-white text-2xl rounded-2xl'>
             Explore More >
           </button>
         </div>
-        <div className=" basis-2/4 flex justify-end">
+        <div className="hidden ss:flex justify-end self-center">
           <Image 
             src={finalixSecImg1}
             width={500}
@@ -26,19 +26,20 @@ const FinalixSec = ({props}) => {
           />
         </div>
       </section>
-      <section className="grid grid-cols-2 bg-[url('../public/assets/images/finalixSecBg2.svg')] bg-no-repeat bg-35% bg-left px-28 py-10">
-        <div className=" basis- flex justify-start">
+      <section className="ss:grid ss:grid-cols-2 ss:bg-[url('../public/assets/images/finalixSecBg2.svg')] bg-no-repeat bg-35% bg-left px-5 pt-5 ss:pb-14 ss:px-28">
+        <div className="hidden ss:flex justify-start self-center">
           <Image 
             src={finalixSecImg2}
             width={500}
             height={350}
+            className='w-[800px] h-[500px]'
           />
         </div>
-        <div className='basis-1/2 pl-28 flex flex-col justify-center text-justify'>
-          <h3 className='text-5xl text-deepGreen mb-9 font-bold'>
+        <div className='flex flex-col justify-center items-center text-center ss:pl-12 ss:text-justify ss:text-left ss:items-start'>
+          <h3 className='text-4xl text-deepGreen mb-9 font-bold lg:text-5xl'>
             Recruiting
           </h3>
-          <p className='text-3xl mb-9 text-deepGreen'>
+          <p className='text-priPara mb-9 text-deepGreen lg:text-16'>
             With us, you will accompany and develop value-creating projects with banks and insurance companies. The finalix Family is always looking for new consultants to join us in rethinking the financial industry. Are you ready?
           </p>
           <button className='w-56 px-3 py-5 bg-deepGreen text-white text-2xl rounded-2xl'>
