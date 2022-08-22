@@ -30,13 +30,13 @@
     font-size: 1.4rem
   }
   .bg{
-    background: url('../public/assets/bg.svg');
+    background: url('../public/assets/images/bg.svg');
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: cover; 
   }
   .one{
-    background: url('../public/assets/rec2.svg'), #1C6C59;
+    background: url('../public/assets/images/rec2.svg'), #1C6C59;
     position: absolute;
     right:0;
     top:120px;
@@ -47,7 +47,7 @@
     border: 2px solid red
   }
     .two {
-      background: url('../public/assets/rec3.svg'), #1C6C59;
+      background: url('../public/assets/images/rec3.svg'), #1C6C59;
       position: absolute;
       right: 0;
       top:340px;
