@@ -6,8 +6,8 @@ import finalixSecImg2 from '../public/assets/images/finalixSecImg2.svg'
 const FinalixSec = ({props}) => {
   return (
     <section className=''>
-      <section className="ss:grid ss:grid-cols-2 ss:bg-[url('../public/assets/images/finalixSecBg2.svg')] bg-no-repeat bg-35% bg-right px-5 py-5 ss:px-28">
-        <div className=' flex flex-col justify-center items-center text-center ss:pr-28 ss:text-justify ss:items-start'>
+      <section className="ss:grid ss:grid-cols-2 ss:bg-[url('../public/assets/images/finalixSecBg2.svg')] bg-no-repeat ss:bg-35% ss:bg-right px-5 pb-5 ss:pt-14 ss:px-28">
+        <div className=' flex flex-col justify-center items-center text-center ss:pr-24 ss:text-justify ss:items-start'>
           <h3 className='text-4xl text-deepGreen mb-9 font-bold lg:text-5xl'>
           Finalix Family
           </h3>
@@ -18,7 +18,7 @@ const FinalixSec = ({props}) => {
             Explore More >
           </button>
         </div>
-        <div className="hidden ss:block flex justify-end self-center">
+        <div className="hidden ss:flex justify-end self-center">
           <Image 
             src={finalixSecImg1}
             width={500}
@@ -26,8 +26,8 @@ const FinalixSec = ({props}) => {
           />
         </div>
       </section>
-      <section className="ss:grid ss:grid-cols-2 ss:bg-[url('../public/assets/images/finalixSecBg2.svg')] bg-no-repeat bg-35% bg-left px-5 py-10 ss:px-28">
-        <div className="hidden ss:block flex justify-end self-center">
+      <section className="ss:grid ss:grid-cols-2 ss:bg-[url('../public/assets/images/finalixSecBg2.svg')] bg-no-repeat bg-35% bg-left px-5 pt-5 ss:pb-14 ss:px-28">
+        <div className="hidden ss:flex justify-start self-center">
           <Image 
             src={finalixSecImg2}
             width={500}
@@ -35,7 +35,7 @@ const FinalixSec = ({props}) => {
             className='w-[800px] h-[500px]'
           />
         </div>
-        <div className='flex flex-col justify-center items-center text-center ss:pl-28 ss:text-justify ss:text-left ss:items-start'>
+        <div className='flex flex-col justify-center items-center text-center ss:pl-12 ss:text-justify ss:text-left ss:items-start'>
           <h3 className='text-4xl text-deepGreen mb-9 font-bold lg:text-5xl'>
             Recruiting
           </h3>
