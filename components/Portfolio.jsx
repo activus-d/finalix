@@ -26,7 +26,7 @@ const SinglePortfolio = ({bgColor, content}) => {
         <p className=' text-white font-medium text-center mb-4'>Client Tax Reporting Services</p>
       </div>
       <div className='w-60px h-60px rounded-full flex pl-6 pt-2 absolute bottom-[-5%] right-[-7%]' style={{backgroundColor: 'black'}}>
-        <span className='text-5xl font-bold text-white'>></span>
+        <span className='text-5xl font-bold text-white'></span>
       </div>
     </div>
   )
