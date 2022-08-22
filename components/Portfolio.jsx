@@ -3,8 +3,8 @@ import React, {useState} from 'react'
 const Portfolio = ({title,content}) => {
   const [portfolioColor, setPortfolioColor]  = useState({lightGreen: '#528276', lightBrown: '#ab6f6f', midGray: '#6e706e', deepCyan: '#8d8642'})
   return (
-    <section className='flex justify-between'>
-      <SinglePortfolio bgColor={portfolioColor.lightGreen}/>
+    <section className='px-6 sm:px-12 w-full py-16 h-full justify-center md:flex-nowrap flex gap-12 md:gap-20 flex-wrap'>
+      <SinglePortfolio bgColor={portfolioColor.lightGreen} />
       <SinglePortfolio bgColor={portfolioColor.lightBrown}/>
       <SinglePortfolio bgColor={portfolioColor.midGray}/>
       <SinglePortfolio bgColor={portfolioColor.deepCyan}/>
@@ -14,7 +14,7 @@ const Portfolio = ({title,content}) => {
 
 const SinglePortfolio = ({bgColor, content}) => {
   return (
-    <div className='bg-deepGreen w-250px rounded-md shadow-portfolio mb-16 relative overflow-hidden'>
+    <div className='bg-deepGreen w-[30rem] rounded-md shadow-portfolio mb-16 relative overflow-hidden'>
       <div className='py-4 bg-white rounded-t-md'>
         <h3 className='font-bold text-center text-[20px]' style={{color: bgColor}}>Portfolio & Assets Management</h3>
       </div>
