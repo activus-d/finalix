@@ -84,7 +84,7 @@ const SinglePortfolioTwo = ({bgColor, option1, option2, option3, option4, option
         <p className=' text-white font-medium text-center mb-4'>{option5}</p>
       </div>
       <div className='w-60px h-60px rounded-full flex pl-6 pt-2 absolute bottom-[-10%] right-[-10%]' style={{backgroundColor: 'black'}}>
-        <span className='text-4xl font-bold text-white'>></span>
+        <span className='text-4xl font-bold text-white'></span>
       </div>
     </div>
   )
