@@ -5,7 +5,8 @@ import exploreBg from '../public/assets/images/exploreBg.svg'
 
 const Explore = () => {
   return (
-    <section className="bg-[url('../public/assets/images/exploreBg.svg')] bg-cover w-full pt-10 pb-16">
+    <section className="bg-[url('../public/assets/images/exploreBg.svg')] bg-cover w-full pt-10 pb-16 px-6 sm:px-28" id='explore'>
+
         <ExploreCom/>
         <Portfolio />
         <FiftyCom/>
@@ -13,4 +14,4 @@ const Explore = () => {
   )
 }
 
-export default Explore
+export default Explore;
