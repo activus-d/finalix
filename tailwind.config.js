@@ -15,6 +15,8 @@ module.exports = {
         priHeadColor: "#08352A",
         secColor: "#FFFFFF",
         recBgGradient: " linear-gradient(180deg, #00614A 0%, #001B14 100%)",
+        bodyGradient:
+          " linear-gradient(179.77deg, #FFFFFF 43.21%, #CBFFF0 74.26%, #FFFFFF 115.51%)",
         bodyGradient: " linear-gradient(179.77deg, #FFFFFF 43.21%, #CBFFF0 74.26%, #FFFFFF 115.51%)",
         secBg: "#7DADA2",
         deepGreen: "#195746",
@@ -23,6 +25,7 @@ module.exports = {
         verydeepGreen: "#004333",
         lightBrown: "#ab6f6f",
         midGray: "#6e706e",
+        deepCyan: "#6e706e",
         deepCyan: "#6e706e", 
       },
       fontFamily: {
@@ -110,4 +113,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
