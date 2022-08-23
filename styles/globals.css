@@ -58,6 +58,22 @@
       top: 50px;
       border: 2px solid red
     }
+
+    .portfolioShow h3 + div {
+      flex-basis: 70%;
+      padding-top: 10px;
+      /* padding-bottom: 10px */
+    }
+    .portfolioShow h3 {
+      flex-basis: 30%;
+    }
+    .portfolioShow p {
+      opacity: 1;
+      transition-duration: 1500ms
+    }
+    .portfolioShow span {
+      display: none
+    }
 }
 
 @tailwind components;

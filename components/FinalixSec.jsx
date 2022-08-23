@@ -5,7 +5,7 @@ import finalixSecImg2 from '../public/assets/images/finalixSecImg2.svg'
 
 const FinalixSec = ({props}) => {
   return (
-    <section className=''>
+    <section className='py-10'>
       <section className="ss:grid ss:grid-cols-2 ss:bg-[url('../public/assets/images/finalixSecBg2.svg')] bg-no-repeat ss:bg-35% ss:bg-right px-5 pb-5 ss:pt-14 ss:px-28">
         <div className=' flex flex-col justify-center items-center text-center ss:pr-24 ss:text-justify ss:items-start'>
           <h3 className='text-4xl text-deepGreen mb-9 font-bold lg:text-5xl'>
