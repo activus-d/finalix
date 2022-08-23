@@ -69,7 +69,7 @@
     }
     .portfolioShow p {
       opacity: 1;
-      transition-duration: 1500ms
+      transition-duration: 2500ms
     }
     .portfolioShow span {
       display: none
