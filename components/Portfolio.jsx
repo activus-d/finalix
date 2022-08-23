@@ -2,13 +2,22 @@ import React, {useState} from 'react'
 
 const Portfolio = ({title,content}) => {
   const [portfolioColor, setPortfolioColor]  = useState({lightGreen: '#528276', lightBrown: '#ab6f6f', midGray: '#6e706e', deepCyan: '#8d8642'})
-  const [portfolioOptions] = useState({title: 'Portfolio & Assets Management', options: ['Risk management', 'Structured product', 'Portfolio Management', 'Investment Accounting']})
- 
+  const [isOptionShow, setIsOptionShow] = useState(false)
+
+  const showOptions = (e) => {
+    e.currentTarget.classList.add('portfolioShow')
+  }
+  const hideOptions = (e) => {
+    e.currentTarget.classList.remove('portfolioShow')
+  }
+
   return (
     <section className='hidden ss:flex ss:justify-around ss:gap-x-20 lg:grid-cols-4 lg:grid-rows-1 lg:gap-x-7'>
       <SinglePortfolioOne 
         bgColor={portfolioColor.lightGreen}
-        options={portfolioOptions.options}
+        showOptions={showOptions}
+        isOptionShow={isOptionShow}
+        hideOptions={hideOptions}
         title={'Portfolio & Assets Management'}
         option1={'Risk Management'}
         option2={'Structured Products'}
@@ -18,7 +27,9 @@ const Portfolio = ({title,content}) => {
       />
       <SinglePortfolioTwo 
         bgColor={portfolioColor.lightBrown}
-        options={portfolioOptions.options}
+        showOptions={showOptions}
+        isOptionShow={isOptionShow}
+        hideOptions={hideOptions}
         title={'Portfolio & Assets Management'}
         option1={'Risk Management'}
         option2={'Structured Products'}
@@ -28,7 +39,9 @@ const Portfolio = ({title,content}) => {
       />
       <SinglePortfolioOne 
         bgColor={portfolioColor.midGray}
-        options={portfolioOptions.options}
+        showOptions={showOptions}
+        isOptionShow={isOptionShow}
+        hideOptions={hideOptions}
         title={'Portfolio & Assets Management'}
         option1={'Risk Management'}
         option2={'Structured Products'}
@@ -38,7 +51,9 @@ const Portfolio = ({title,content}) => {
       />
       <SinglePortfolioTwo 
         bgColor={portfolioColor.deepCyan}
-        options={portfolioOptions.options}
+        showOptions={showOptions}
+        isOptionShow={isOptionShow}
+        hideOptions={hideOptions}
         title={'Portfolio & Assets Management'}
         option1={'Risk Management'}
         option2={'Structured Products'}
@@ -51,39 +66,35 @@ const Portfolio = ({title,content}) => {
   )
 }
 
-const SinglePortfolioOne = ({bgColor, option1, option2, option3, option4, option5, title}) => {
+const SinglePortfolioOne = ({bgColor, option1, option2, option3, option4, option5, title, showOptions, isOptionShow, hideOptions}) => {
   return (
-    <div className='bg-deepGreen rounded-md shadow-portfolio mb-16 relative overflow-hidden'>
-      <div className='py-4 bg-white rounded-t-md ss:px-4'>
-        <h3 className='font-bold text-center text-[18px]' style={{color: bgColor}}>{title}</h3>
+    <div className='bg-deepGreen rounded-md h-250px shadow-portfolio mb-16 relative overflow-hidden flex flex-col' onMouseOver={(e) => showOptions(e)} onMouseLeave={(e) => hideOptions(e)}>
+      <h3 className=' w-full flex items-center py-4 px-4 bg-white rounded-t-md font-bold ss:px-4font-bold text-center text-[18px] basis-full' style={{color: bgColor}}>{title}</h3>
+      <div className={`rounded-b-md overflow-hidden basis-0`} style={{backgroundColor: bgColor}}>
+        <p className={`opacity-0 text-white font-medium text-center mb-4`}>{option1}</p>
+        <p className={`opacity-0 text-white font-medium text-center mb-4`}>{option2}</p>
+        <p className={`opacity-0 text-white font-medium text-center mb-4`}>{option3}</p>
+        <p className={`opacity-0 text-white font-medium text-center mb-4`}>{option4}</p>
+        <p className={`opacity-0 text-white font-medium text-center mb-4`}>{option5}</p>
       </div>
-      <div className={`p-3 rounded-b-md`} style={{backgroundColor: bgColor}}>
-        <p className=' text-white font-medium text-center mb-4'>{option1}</p>
-        <p className=' text-white font-medium text-center mb-4'>{option2}</p>
-        <p className=' text-white font-medium text-center mb-4'>{option3}</p>
-        <p className=' text-white font-medium text-center mb-4'>{option4}</p>
-        <p className=' text-white font-medium text-center mb-4'>{option5}</p>
-      </div>
-      <div className='w-60px h-60px rounded-full flex pl-6 pt-2 absolute bottom-[-10%] right-[-10%]' style={{backgroundColor: 'black'}}>
+      <div className='w-60px h-60px rounded-full flex pl-6 pt-2 absolute bottom-[-10%] right-[-10%]' style={{backgroundColor: bgColor}}>
         <span className='text-4xl font-bold text-white'>></span>
       </div>
     </div>
   )
 }
-const SinglePortfolioTwo = ({bgColor, option1, option2, option3, option4, option5, title}) => {
+const SinglePortfolioTwo = ({bgColor, option1, option2, option3, option4, option5, title, showOptions, isOptionShow, hideOptions}) => {
   return (
-    <div className='bg-deepGreen rounded-md shadow-portfolio mb-16 relative overflow-hidden hidden lg:block'>
-      <div className='py-4 bg-white rounded-t-md '>
-        <h3 className='font-bold text-center text-[18px]' style={{color: bgColor}}>Portfolio & Assets Management</h3>
+    <div className='bg-deepGreen rounded-md h-250px shadow-portfolio mb-16 relative overflow-hidden hidden lg:flex flex flex-col' onMouseOver={(e) => showOptions(e)} onMouseLeave={(e) => hideOptions(e)}>
+      <h3 className='flex items-center py-4 bg-white rounded-t-md font-bold text-center text-[18px] basis-full' style={{color: bgColor}}>{title}</h3>
+      <div className={`rounded-b-md overflow-hidden basis-0`} style={{backgroundColor: bgColor}}>
+        <p className={`opacity-0 text-white font-medium text-center mb-4`}>{option1}</p>
+        <p className={`opacity-0 text-white font-medium text-center mb-4`}>{option2}</p>
+        <p className={`opacity-0 text-white font-medium text-center mb-4`}>{option3}</p>
+        <p className={`opacity-0 text-white font-medium text-center mb-4`}>{option4}</p>
+        <p className={`opacity-0 text-white font-medium text-center mb-4`}>{option5}</p>
       </div>
-      <div className={`p-3 rounded-b-md`} style={{backgroundColor: bgColor}}>
-        <p className=' text-white font-medium text-center mb-4'>{option1}</p>
-        <p className=' text-white font-medium text-center mb-4'>{option2}</p>
-        <p className=' text-white font-medium text-center mb-4'>{option3}</p>
-        <p className=' text-white font-medium text-center mb-4'>{option4}</p>
-        <p className=' text-white font-medium text-center mb-4'>{option5}</p>
-      </div>
-      <div className='w-60px h-60px rounded-full flex pl-6 pt-2 absolute bottom-[-10%] right-[-10%]' style={{backgroundColor: 'black'}}>
+      <div className='w-60px h-60px rounded-full flex pl-6 pt-2 absolute bottom-[-10%] right-[-10%]' style={{backgroundColor: bgColor}}>
         <span className='text-4xl font-bold text-white'>></span>
       </div>
     </div>
