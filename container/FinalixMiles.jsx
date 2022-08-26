@@ -21,7 +21,7 @@ const FinalixMiles = () => {
         <div></div>
         <RectangleDown 
           number={'>250'}
-          text={'successfully delivered projects'}
+          text={'Successfully Delivered Projects'}
         />
       </div>
       <div className='relative h-[50px] mt-8'>
