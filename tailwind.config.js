@@ -109,6 +109,9 @@ module.exports = {
         '0': '0ms',
         '2000': '2000ms',
         '3000': '3000ms'
+      },
+      boxShadow: {
+        'normal': '0px 0px 1px rgba(0, 0, 0, 0.25)',
       }
     },
   },
