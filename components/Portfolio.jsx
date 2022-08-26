@@ -5,10 +5,10 @@ const Portfolio = ({title,content}) => {
   const [isOptionShow, setIsOptionShow] = useState(false)
 
   const showOptions = (e) => {
-    e.currentTarget.classList.add('portfolioShow')
+    e.currentTarget.classList.add('portfolioShow') //check globas css for the class 'portfolioShow'
   }
   const hideOptions = (e) => {
-    e.currentTarget.classList.remove('portfolioShow')
+    e.currentTarget.classList.remove('portfolioShow') //check globas css for the class 'portfolioShow'
   }
 
   return (
