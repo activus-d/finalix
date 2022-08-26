@@ -6,3 +6,5 @@ export { default as HomeFinalix } from "./HomeFinalix";
 export { default as FooterCom } from "./FooterCom";
 export { default as FiftyCom } from "./FiftyCom";
 export { default as ExploreCom } from "./ExploreCom";
+export {default as Newsletter} from './Newsletter'
+export { default as FooterContacts } from "./FooterContacts";

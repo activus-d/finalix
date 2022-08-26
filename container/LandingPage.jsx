@@ -10,10 +10,10 @@ const LandingPage = ({children}) => {
       <header className='bg-navBarBg px-6 sm:px-28 font-inter h-auto '>
         <Header/>
       </header>
-      <main className=' font-inter pb-16'>
+      <main className=' font-inter '>
         {children}
       </main>
-      <footer className='font-inter h-full w-full sm:px-28 px-6 px-6 xs:px-8 '>
+      <footer className='font-inter h-full w-full bg-navBarBg sm:px-28 px-6 px-6 xs:px-8 '>
         <Footer/>
       </footer>
     </>
